@@ -18,7 +18,15 @@ export const metadata: Metadata = {
     default: "Triad Labs — Learning Management System",
     template: "%s | Triad Labs",
   },
-  description: "Triad Labs LMS — Learn at your own pace with expert-led courses.",
+  description: "Learn trading, finance, AI & tech with expert-led courses. Master advanced strategies, build algorithmic trading systems, and earn certificates.",
+  keywords: ["LMS", "trading courses", "finance", "AI", "algorithmic trading", "learning platform"],
+  authors: [{ name: "Triad Academy" }],
+  openGraph: {
+    title: "Triad Labs — Learning Management System",
+    description: "Learn trading, finance, AI & tech with expert-led courses.",
+    siteName: "Triad Labs",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
